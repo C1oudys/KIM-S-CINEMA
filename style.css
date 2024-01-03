@@ -62,9 +62,9 @@ body{
     color: black;
 }
 
-
 .new-box {
 	margin-top: 12px;
+	filter: brightness(300%);
 	border-top:10px dotted beige;
 }
 
@@ -75,7 +75,9 @@ body{
 
 .card {
 	min-height: 850px;
-	filter: sepia(30%);
+	filter: sepia(30%) brightness(85%);
+	overflow: hidden;
+	transition: transform 0.3s ease;
 }
 
 .card-title {
@@ -95,8 +97,19 @@ body{
 
 .card:hover {
 	cursor: pointer;
+	transform: translateY(-15px);
+	filter: brightness(120%);
   }
 
 .searchbox {
 	font-family: 'Lobster', sans-serif;
+}
+
+.titlebox {
+	position: absolute; 
+	top: -90px; left: 50%; 
+	transform: translateX(-50%); 
+	color: antiquewhite; 
+	font-weight: bold; 
+	font-size: 45px;
 }
