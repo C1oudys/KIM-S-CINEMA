@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <div class="card-body">
                 <h5 class="card-title">${movie.title}</h5>
                 <p class="card-text">${movie.overview}</p>
-                <p class="card-text">평점: ${movie.vote_average}</p>
+                <p class="card-rating">Rating : ${movie.vote_average} </p>
               </div>
             </div>
           `;
