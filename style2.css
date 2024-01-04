@@ -59,7 +59,7 @@ body{
   }
 
 .navbar-brand:hover {
-    color:black;
+    color: black;
 }
 
 .new-box {
@@ -70,17 +70,24 @@ body{
 .mainportal {
     margin-top: 80px;
     text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 80px;
 }
 
 .linkportal {
     font-family: 'Lobster', sans-serif;
     text-decoration: none;
-    color:beige;
+    color: beige;
     font-size: 50px;
 }
 
 .linkportal:hover {
-    color: whitesmoke;
+    color: #ffd700;
+}
+
+.new-box2 {
+    border-bottom:10px dotted beige;
 }
 
 body {
@@ -91,7 +98,7 @@ body {
 }
 
 .card-container {
-    margin-top: 120px;
+    margin-top: 15px;
     position:relative;
     display: flex;
     width: 4000px;
