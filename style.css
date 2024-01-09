@@ -82,7 +82,7 @@ body {
 
 .card-title {
   color: midnightblue;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .card-rating {
@@ -93,6 +93,7 @@ body {
   font-family: "Lobster", sans-serif;
   background-color: beige;
   color: #8b0000;
+  font-size: 20px;
 }
 
 .card:hover {
