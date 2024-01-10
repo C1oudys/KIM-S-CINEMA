@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIM'S CINEMA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="search.css">
+  <script type="module" src="search.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap" rel="stylesheet">
+ 
+  
+  <nav class="navbar">
+    <a class="navbar-brand" href="portal.html">KIM'S CINEMA</a>
+  </nav>
+
+  <div class="light-box">
+   <p>&nbsp; </p>
+  </div>
+
+</head>
+<body>
+  <div class="searchbox mt-5">
+    <div class="row justify-content-center" style="margin-top: 200px;">
+        <div class="col-lg-6 mb-3">
+            <div style="position: relative;">
+              <p class="titlebox">Top Rated Movies</p>
+                <div class="input-group mt-3">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Search for movies...">
+                    <button class="btn btn-primary" type="button" onclick="searchMovies()" style="background-color: black; border-color: antiquewhite;">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="container">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3" id="movieList">
+      </div>
+    </div>
+  </div>
+
+</main>
+
+</body>
+</html>
