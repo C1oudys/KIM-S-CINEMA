@@ -56,6 +56,7 @@ body {
   color: #ff0000;
   border-left: 4px solid #8b0000;
   border-right: 4px solid #8b0000;
+  text-shadow: 1px 1px 1px #ff0000;
 }
 
 .navbar-brand:hover {
@@ -80,6 +81,7 @@ body {
   text-decoration: none;
   color: beige;
   font-size: 50px;
+  text-shadow: 2px 1px 3px white;
 }
 
 .linkportal:hover {
