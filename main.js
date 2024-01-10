@@ -70,5 +70,3 @@ function searchMovies() {
     card.style.display = isVisible ? "block" : "none";
   });
 }
-
-window.location = "./root/portal.html";
