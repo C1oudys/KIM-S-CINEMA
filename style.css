@@ -62,7 +62,7 @@ body {
   color: black;
 }
 
-.new-box {
+.light-box {
   margin-top: 12px;
   filter: brightness(300%);
   border-top: 10px dotted beige;

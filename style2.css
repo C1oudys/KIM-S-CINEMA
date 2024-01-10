@@ -62,7 +62,7 @@ body {
   color: black;
 }
 
-.new-box {
+.light-box {
   margin-top: 12px;
   border-top: 10px dotted beige;
 }
@@ -86,7 +86,7 @@ body {
   color: #ffd700;
 }
 
-.new-box2 {
+.light-box2 {
   border-bottom: 10px dotted beige;
 }
 
